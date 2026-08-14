@@ -1,0 +1,153 @@
+<!doctype html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <title>Shark Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="header">
+      <a href="index.html" class="logo-link" aria-label="Go to home page">
+        <img
+          class="logo"
+          src="images/Creative_Amazing_Logo_Design-removebg-preview.png"
+          alt="Logo"
+        />
+      </a>
+      <nav class="header-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="#">Our shop</a>
+        <a href="#">Contact</a>
+        <a
+          class="btn"
+          href="https://accounts.google.com/v3/signin/identifier?continue=https://takeout.google.com/?hl%3Dar&followup=https://takeout.google.com/?hl%3Dar&hl=ar&osid=1&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1779325869:1786688927427345"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Sign in</a
+        >
+      </nav>
+    </header>
+
+    <main class="landing-page">
+      <div class="landing-copy">
+        <h2>Welcome to Shark Store</h2>
+        <h1>Your one-stop shop for all things gaming!</h1>
+        <p>
+          Discover the best gaming products at unbeatable prices and exclusive
+          deals!
+        </p>
+        <div class="landing-bar">
+          <input type="text" placeholder="Start typing..." />
+          <button class="btn">Search</button>
+        </div>
+      </div>
+
+      <div class="landing-image-container">
+        <img src="images/391461392616944159.jpg" alt="Gaming products" />
+      </div>
+    </main>
+
+    <div class="landing-page-container"></div>
+
+    <section class="trending-section">
+      <div class="trending-header">
+        <h2><span>TRENDING</span>Trending Games</h2>
+        <button class="view-all-btn">VIEW ALL</button>
+      </div>
+
+      <div class="games-grid">
+        <div class="game-card">
+          <img src="images/391461392616944159.jpg" alt="Game 1" />
+          <div class="game-card-content">
+            <div class="game-category">Action</div>
+            <div class="game-name">
+              Assassin Creed
+              <div class="game-price">$15.99</div>
+              <a
+                class="download-link"
+                href="https://store.steampowered.com/app/15100/Assassins_Creed/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Assassin Creed"
+                onclick="window.open('https://store.steampowered.com/app/15100/Assassins_Creed/', '_blank'); return false;"
+              >
+                <span class="download-icon">⬇</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="images/21110692000477296.jpg" alt="Game 2" />
+          <div class="game-card-content">
+            <div class="game-category">Adventure</div>
+            <div class="game-name">
+              Minecraft
+              <div class="game-price">$29.99</div>
+              <a
+                class="download-link"
+                href="https://www.minecraft.net/en-us/download"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Minecraft"
+                onclick="window.open('https://www.minecraft.net/en-us/download', '_blank'); return false;"
+              >
+                <span class="download-icon">⬇</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img src="images/366269382220850439.jpg" alt="Game 3" />
+          <div class="game-card-content">
+            <div class="game-category">Action</div>
+            <div class="game-name">
+              Mobile legends
+              <div class="game-price">FREE</div>
+              <a
+                class="download-link"
+                href="https://www.mobilelegends.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Mobile Legends"
+                onclick="window.open('https://www.mobilelegends.com/', '_blank'); return false;"
+              >
+                <span class="download-icon">⬇</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img
+            src="images/The Among Us Drinking Game Taking the Internet By Storm.jpg"
+            alt="Game 4"
+          />
+          <div class="game-card-content">
+            <div class="game-category">Action</div>
+            <div class="game-name">
+              Among Us
+                <div class="game-price">$2.49</div>
+              <a
+                class="download-link"
+                href="https://store.steampowered.com/app/945360/Among_Us/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Among Us"
+                onclick="window.open('https://store.steampowered.com/app/945360/Among_Us/', '_blank'); return false;"
+              >
+                <span class="download-icon">⬇</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
